@@ -1,0 +1,6 @@
+site_name: testing our docs
+
+docs_dir: docs
+
+pages:
+- ['index.md','This is the index page']

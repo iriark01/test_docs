@@ -3,4 +3,6 @@ site_name: testing our docs
 docs_dir: docs
 
 pages:
-- ['index.md','This is the index page']
+- ['index.md','Getting started']
+- ['network_socket.md','Network socket API reference']
+- ['porting_guide.md','Porting and testing']

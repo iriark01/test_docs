@@ -1,4 +1,6 @@
-# Network Socket API
+# Getting started with the network and socket interface
+
+## Network Socket API
 
 The Network Socket API provides a common interface for using [[https://en.wikipedia.org/wiki/Network_socket|sockets]] on network devices. The API provides a simple class-based interface that should be familiar to users experienced with other socket APIs. Additionally, the API provides a simple interface for implementing network devices, making it easy to connect hardware agnostic programs to new devices.
 

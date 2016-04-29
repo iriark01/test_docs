@@ -192,7 +192,7 @@ void socket_attach(void *handle, void (*callback)(void *), void *data);
 
 ## Sockets
 
-As a part of implementing the NetworkStack interface, a new device must implement a series of **socket_** functions. A **void** ***** is provided to pass socket-specific context between these functions. The socket functions are managed by the [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classSocket.html|##Socket##]] classes and implementation functions are hidden from the user.
+As a part of implementing the NetworkStack interface, a new device must implement a series of **socket_** functions. A **void** ***** is provided to pass socket-specific context between these functions. The socket functions are managed by the [Socket](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classSocket.html) classes and implementation functions are hidden from the user.
 
 ## Errors
 

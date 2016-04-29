@@ -43,15 +43,3 @@
 [![View library](https://www.mbed.com/embed/?type=library)](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/UDPSocket_8h_source.html)
 
 [![View library](https://www.mbed.com/embed/?type=library)](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/WiFiInterface_8h_source.html)
-
-[![View library](https://www.mbed.com/embed/?type=library)]()
-
-[![View library](https://www.mbed.com/embed/?type=library)]()
-
-[![View library](https://www.mbed.com/embed/?type=library)]()
-
-[![View library](https://www.mbed.com/embed/?type=library)]()
-
-[![View library](https://www.mbed.com/embed/?type=library)]()
-
-[![View library](https://www.mbed.com/embed/?type=library)]()

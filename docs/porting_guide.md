@@ -232,10 +232,11 @@ nsapi_tests("ESP8266Interface Tests", &iface, "0.0.0.0", 4000);
 ```
 
 The test harness library is **NSAPITests.** It relies on a python echo server which is also part of that repo. Make sure to change the IP address in the interface test program to point at the computer that is running the script.
-<<library /teams/NetworkSocketAPI/code/NSAPITests/>>
+
+[![View library](https://www.mbed.com/embed/?type=library)](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classNSAPITests.html)
 
 ## References
 
-<<library /teams/NetworkSocketAPI/code/ESP8266Interface/>>
+[![View library](https://www.mbed.com/embed/?type=library)](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classESP8266Interface.html)
 
 [![View library](https://www.mbed.com/embed/?type=library)](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classLWIPInterface.html)

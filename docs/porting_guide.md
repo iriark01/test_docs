@@ -7,7 +7,7 @@ The NetworkSocketAPI is designed to make porting new devices as easy as possible
 ![Subclasses for ](images/LWIPInterface.png)
 </span>
 
-A new device must implement a [NetworkStack](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classNetworkStack.html) with the naming convention of **DeviceInterface** where **Device** is a unique name that represents the device or network processor. The **DeviceInterface** should inherit one additional of the following unless it is an abstract device: The currently defined subclasses are:
+A new device must implement a [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classNetworkStack.html|##NetworkStack##]] with the naming convention of **DeviceInterface** where **Device** is a unique name that represents the device or network processor. The **DeviceInterface** should inherit one additional of the following unless it is an abstract device: The currently defined subclasses are:
 
 * [EthernetInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classEthernetInterface.html)
 * [WiFiInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classWiFiInterface.html)
@@ -222,6 +222,9 @@ enum nsapi_error_t {
 ## Testing
 
 When adding new device support there is a test harness that can be used to verify implementations. The test program is very simple since it only needs to instantiate the new network interface and all further operations are performed against the managed classes.
+
+[![View code](https://www.mbed.com/embed/?url=https://github.com/iriark01/testing_docs_tools)](https://github.com/iriark01/testing_docs_tools/blob/master/samples/ESP8266InterfaceTests/main.cpp)
+
 
 ```cpp
 // replace 0.0.0.0 with the ip address of the host pc running the echo_server.py script

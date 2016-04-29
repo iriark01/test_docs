@@ -7,7 +7,7 @@ The NetworkSocketAPI is designed to make porting new devices as easy as possible
 ![Subclasses for ](images/LWIPInterface.png)
 </span>
 
-A new device must implement a [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classNetworkStack.html|##NetworkStack##]] with the naming convention of **DeviceInterface** where **Device** is a unique name that represents the device or network processor. The **DeviceInterface** should inherit one additional of the following unless it is an abstract device: The currently defined subclasses are:
+A new device must implement a [NetworkStack](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classNetworkStack.html) with the naming convention of **DeviceInterface** where **Device** is a unique name that represents the device or network processor. The **DeviceInterface** should inherit one additional of the following unless it is an abstract device: The currently defined subclasses are:
 
 * [EthernetInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classEthernetInterface.html)
 * [WiFiInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classWiFiInterface.html)
@@ -233,7 +233,7 @@ nsapi_tests("ESP8266Interface Tests", &iface, "0.0.0.0", 4000);
 
 The test harness library is **NSAPITests.** It relies on a python echo server which is also part of that repo. Make sure to change the IP address in the interface test program to point at the computer that is running the script.
 
-[![View library](https://www.mbed.com/embed/?type=library)](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classNSAPITests.html)
+! Missing NSAPITest
 
 ## References
 

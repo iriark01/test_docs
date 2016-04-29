@@ -2,21 +2,21 @@
 
 ## Network Socket API
 
-The Network Socket API provides a common interface for using [[https://en.wikipedia.org/wiki/Network_socket|sockets]] on network devices. The API provides a simple class-based interface that should be familiar to users experienced with other socket APIs. Additionally, the API provides a simple interface for implementing network devices, making it easy to connect hardware agnostic programs to new devices.
+The Network Socket API provides a common interface for using [sockets](https://en.wikipedia.org/wiki/Network_socket) on network devices. The API provides a simple class-based interface that should be familiar to users experienced with other socket APIs. Additionally, the API provides a simple interface for implementing network devices, making it easy to connect hardware agnostic programs to new devices.
 
 ## Network Interface 
 
-The [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classNetworkStack.html|##NetworkStack##]] provides an abstract class for network devices that support sockets. Devices must inherit and implement the NetworkStack class and a network interface as well as adding implementation specific methods for using the device. A NetworkStack must be provided to a Socket constructor to open a socket on the interface. Currently defined network interfaces include:
+The [NetworkStack](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classNetworkStack.html) provides an abstract class for network devices that support sockets. Devices must inherit and implement the NetworkStack class and a network interface as well as adding implementation specific methods for using the device. A NetworkStack must be provided to a Socket constructor to open a socket on the interface. Currently defined network interfaces include:
 
-* [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classEthernetInterface.html|##EthernetInterface##]]
-* [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classWiFiInterface.html|##WiFiInterface##]]
-* [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classCellularInterface.html|##CellularInterface##]]
-* [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classMeshInterface.html|##MeshInterface##]]
+* [EthernetInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classEthernetInterface.html)
+* [WiFiInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classWiFiInterface.html)
+* [CellularInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classCellularInterface.html)
+* [MeshInterface](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classMeshInterface.html)
 
 
 ## Sockets
 
-The Socket class is used for managing network sockets. Once opened, the socket provides a pipe through which data can sent and received to a specific endpoint. The socket class can be instantiated as either a [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classTCPSocket.html|##TCPSocket##]] or a [[https://developer.mbed.org/teams/NetworkSocketAPI/code/NetworkSocketAPI/docs/tip/classUDPSocket.html|##UDPSocket##]] which defines the protocol used for the connection.
+The Socket class is used for managing network sockets. Once opened, the socket provides a pipe through which data can sent and received to a specific endpoint. The socket class can be instantiated as either a [TCPSocket](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classTCPSocket.html) or a [UDPSocket](https://docs.mbed.com/docs/testing-docs-features/en/latest/api/classUDPSocket.html) which defines the protocol used for the connection.
 
 ## Errors 
 

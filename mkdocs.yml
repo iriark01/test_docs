@@ -6,3 +6,4 @@ pages:
 - ['index.md','Getting started']
 - ['network_socket.md','Network socket API reference']
 - ['porting_guide.md','Porting and testing']
+- ['looking_at_ble_doxy.md','Ignore this page']

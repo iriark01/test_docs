@@ -1,3 +1,6 @@
+<details><summary>Sam, this is for you</summary><blockquote><p>This is what it will look like if you expand it</p></blockquote></details>
+
+
 # Getting started with the network and socket interface
 
 ## Network Socket API
